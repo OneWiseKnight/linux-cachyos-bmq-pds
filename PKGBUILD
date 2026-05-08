@@ -13,14 +13,8 @@
 
 ### Selecting the CPU scheduler
 # ATTENTION - only one of the following values can be selected:
-# 'bore' - select 'Burst-Oriented Response Enhancer'
 # 'bmq' - select 'BMQ Scheduler'
 # 'pds' - select 'BMQ Scheduler'
-# 'hardened' - select 'BORE Scheduler hardened' ## kernel with hardened config and hardening patches with the bore scheduler
-# 'cachyos' - select 'CachyOS Default Scheduler (EEVDF)'
-# 'eevdf' - select 'EEVDF Scheduler'
-# 'rt' - select EEVDF, but includes a series of realtime patches
-# 'rt-bore' - select Burst-Oriented Response Enhancer, but includes a series of realtime patches
 : "${_cpusched:=bmq}"
 
 ### Tweak kernel options prior to a build via nconfig
