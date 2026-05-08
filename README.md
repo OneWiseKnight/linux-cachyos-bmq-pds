@@ -11,6 +11,14 @@ Cachy Kernel with BMQ and PDS baked in currently for Linux Kernel 7.0.x
 > [!NOTE]
 > For BMQ/PDS to work, **lots of code from patches needed to be removed** in terms of POC selector, Sched Fair, and anything that touched the scheduler so that BMQ/PDS could compile. So make sure you only use this PKGBUILD for BMQ and PDS only.
 
+## How to Make the Kernel
+1) Download the repo
+2) Open terminal in the folder containing the PKGBUILD file
+3) Type the command
+```
+makepkg
+```
+
 ## Thanks
 - Thanks to the Cachyos team for always keeping things up to date with the Kernel, and PKGBUILD's. If this repo causes any issues with the Cachyos Repo, this repo will easily be taken down.
 
