@@ -1,7 +1,7 @@
 # This REPO is for my personal use, this is a personal project for personal use.
 
 # linux-cachyos-bmq or linux-cachyos-pds
-Cachy Kernel with BMQ and PDS baked in currently for Linux Kernel 7.0.x
+Cachy Kernel with the BMQ Scheduler by default however PDS Scheduler is available if selected for Linux Kernel 7.0.5
 
 > [!Caution]
 > Currently there is no BMQ or PDS version of Cachyos Kernel for Linux 7, so this is a temporary solution. All the patches used are for my personal use so if you have any issues just understand this is a personal project and has nothing to do with Cachyos, or anything related outside this repository.
