@@ -1,6 +1,6 @@
 # THIS REPO has nothing to do with the CACHYOS Repo, this is a personal project for personal use.
 
-# linux-cachyos-bmq-pds
+# linux-cachyos-bmq or linux-cachyos-pds
 Cachy Kernel with BMQ and PDS baked in currently for Linux Kernel 7.0.x
 
 > [!Caution]
@@ -14,6 +14,7 @@ Cachy Kernel with BMQ and PDS baked in currently for Linux Kernel 7.0.x
 ## How to Make the Kernel
 1) Download the repo
 2) Open terminal in the folder containing the PKGBUILD file
+3) Edit the PKGBUILD file if your interested in the PDS scheduler, default is BMQ.
 3) Type the command
 ```
 makepkg
