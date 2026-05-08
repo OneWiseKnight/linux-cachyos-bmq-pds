@@ -1,4 +1,4 @@
-# THIS REPO has nothing to do with the CACHYOS Repo, this is a personal project for personal use.
+# This REPO is for my personal use, this is a personal project for personal use.
 
 # linux-cachyos-bmq or linux-cachyos-pds
 Cachy Kernel with BMQ and PDS baked in currently for Linux Kernel 7.0.x
