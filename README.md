@@ -23,4 +23,6 @@ makepkg
 ## Thanks
 - Thanks to the Cachyos team for always keeping things up to date with the Kernel, and PKGBUILD's. If this repo causes any issues with the Cachyos Repo, this repo will easily be taken down.
 
+- Thanks to Xanmod for a lot of the patches!
+
 - Thanks to Alfred Chen for pushing forward with the BMQ/PDS Project!
