@@ -15,7 +15,7 @@
 # ATTENTION - only one of the following values can be selected:
 # 'bmq' - select 'BMQ Scheduler'
 # 'pds' - select 'BMQ Scheduler'
-: "${_cpusched:=bmq}"
+: "${_cpusched:=pds}"
 
 ### Tweak kernel options prior to a build via nconfig
 : "${_makenconfig:=no}"
@@ -50,7 +50,7 @@
 : "${_per_gov:=no}"
 
 ### Enable TCP_CONG_BBR3
-: "${_tcp_bbr3:=yes}"
+: "${_tcp_bbr3:=no}"
 
 ### Running with a 1000HZ, 750Hz, 600 Hz, 500Hz, 300Hz, 250Hz and 100Hz tick rate
 : "${_HZ_ticks:=1000}"
@@ -146,12 +146,12 @@ fi
 
 pkgbase="linux-$_pkgsuffix"
 _major=7.0
-_minor=5
+_minor=6
 #_minorc=$((_minor+1))
 #_rcver=rc8
 pkgver=${_major}.${_minor}
 _tagrel=3
-pkgrel=10
+pkgrel=1
 #_srcname=cachyos-${_major}.${_minor}-${_tagrel}
 _stable=${_major}.${_minor}
 _srcname=linux-${_stable}
