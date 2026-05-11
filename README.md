@@ -1,15 +1,15 @@
 # This REPO is for my personal use, this is a personal project for personal use.
 
-# linux-cachyos-bmq or linux-cachyos-pds
-Cachy Kernel with the BMQ Scheduler by default however PDS Scheduler is available if selected for Linux Kernel 7.0.5
+# linux-cachyos-pds
+Cachy Kernel with the PDS Scheduler by default however BMQ Scheduler is available if selected for Linux Kernel 7.0.6 via the PKGBUILD.
 
 > [!Caution]
-> Currently there is no BMQ or PDS version of Cachyos Kernel for Linux 7, so this is a temporary solution. All the patches used are for my personal use so if you have any issues just understand this is a personal project and has nothing to do with Cachyos, or anything related outside this repository.
+> Currently there is no PDS version of Cachyos Kernel for Linux 7, so this is a temporary solution. All the patches used are for my personal use so if you have any issues just understand this is a personal project and has nothing to do with Cachyos, or anything related outside this repository. If you would like to compile the BMQ Cachy PKGBUILD version make sure to set CONFIG_SCHED_POC_SELECTOR=n in the config file.
 
-## Currently only Kernel versions supported is 7.0.5
+## Currently only Kernel versions supported is 7.0.6
 
 > [!NOTE]
-> For BMQ/PDS to work, **lots of code from patches needed to be removed** in terms of POC selector, Sched Fair, and anything that touched the scheduler so that BMQ/PDS could compile. So make sure you only use this PKGBUILD for BMQ and PDS only.
+> Lots of code was removed from the Cachy patches to accommodate other patches for my personal preference.
 
 ## How to Make the Kernel
 1) Download the repo
